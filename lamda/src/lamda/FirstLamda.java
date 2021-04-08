@@ -15,5 +15,14 @@ public class FirstLamda {
 		// TODO Auto-generated method stub
 		return n*n;
 	}
+	public static void m1() {
+		System.out.println("hello");
+		
+	}
+	public static int add (int a, int b)
+	{
+		return a+b;
+		
+	}
 
 }
