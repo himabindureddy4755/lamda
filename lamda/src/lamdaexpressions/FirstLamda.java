@@ -1,4 +1,4 @@
-package lamda;
+package lamdaexpressions;
 
 import java.util.function.Function;
 
