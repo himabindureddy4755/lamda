@@ -24,12 +24,13 @@ public class StudentTest {
 		
 		
 	}
-	public static void populateStudents() {
+	public static ArrayList<JavaStudent> populateStudents() {
 		javaStudents = new ArrayList<JavaStudent>();
 		javaStudents.add(new JavaStudent(442,90));
 		javaStudents.add(new JavaStudent(439,50));
 		javaStudents.add(new JavaStudent(425,60));
 		// TODO Auto-generated method stub
+		return javaStudents;
 		
 	}
 
