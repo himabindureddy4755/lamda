@@ -1,4 +1,4 @@
-package Lamdaexpressionsanonymous;
+package Inbuiltfunctionalinterface;
 
 public class Employee {
 	public Employee(String name, int salary)
@@ -8,7 +8,6 @@ public class Employee {
 		this.salary=salary;
 	}
 
-	public String name;
-	public int salary;
-
+	String name;
+	int salary;
 }
