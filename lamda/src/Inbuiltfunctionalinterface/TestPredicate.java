@@ -45,7 +45,9 @@ public class TestPredicate {
 	}
 	private static void populateStudent() {
 		students = new ArrayList<Student>();
-		students.add(new Student(25,20,12));
+		students.add(new Student("himani",25,20,12));
+		students.add(new Student("div",25,20,35));
+		students.add(new Student("chandu",25,27,40));
 		
 		
 }
