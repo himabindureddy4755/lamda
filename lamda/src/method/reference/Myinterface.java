@@ -1,6 +1,6 @@
 package method.reference;
 
 public interface Myinterface {
-	abstract void sum(int a, int b);
+	abstract void sum(int a, int b,int c);
 
 }
