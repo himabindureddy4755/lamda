@@ -17,6 +17,8 @@ public class playmap {
 		System.out.println(updateMarks);
 		List<Integer> evenNumbers = marks.stream().filter(i ->i%2==0).collect(Collectors.toList());
 		System.out.println(evenNumbers);
+		Long noStudentsMarksLessFifteen = marks.stream().filter(i->i<15).count();
+		System.out.println(noStudentsMarksLessFifteen +" of them have scored less than 15");
 	}
 
 }
