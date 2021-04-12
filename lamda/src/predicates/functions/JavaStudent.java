@@ -8,5 +8,6 @@ public class JavaStudent {
 	}
 	public int rollno;
 	int marks;
+	
 
 }
